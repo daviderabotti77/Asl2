@@ -1,0 +1,39 @@
+.Alternanza {
+  text-align: center;
+}
+
+.Alternanza-logo {
+  animation: Counter-logo-spin infinite 15s linear;
+  height: 40vmin;
+  display: block;
+  margin: 0% auto;
+}
+
+.Alternanza-impostazione {
+  background-color: white;
+  min-height: 100vh;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(30px + 2vmin);
+  color: blue;
+}
+
+button{
+	width:150px;
+	height:50px;
+	margin-top:20px;
+}
+
+.Counter-link {
+  color: #61dafc;
+}
+
+@keyframes Counter-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
